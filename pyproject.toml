@@ -15,7 +15,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.uv.sources]
-photomosaic = { git = "https://github.com/waseemr02/photomosaic" }
+photomosaic = { git = "https://github.com/waseemr02/photomosaic", rev = "f3c717e3723c288d24a5cdeac199e675791be11b" }
 
 [project.scripts]
 tessellate = "tessellate.cli:cli"

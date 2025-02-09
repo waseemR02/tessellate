@@ -536,8 +536,8 @@ wheels = [
 
 [[package]]
 name = "photomosaic"
-version = "0+untagged.370.g71ede26"
-source = { git = "https://github.com/waseemr02/photomosaic#71ede263327dc324751fe8cfc7f7dda64e4ae812" }
+version = "0+untagged.371.gf3c717e"
+source = { git = "https://github.com/waseemr02/photomosaic?rev=f3c717e3723c288d24a5cdeac199e675791be11b#f3c717e3723c288d24a5cdeac199e675791be11b" }
 dependencies = [
     { name = "colorspacious" },
     { name = "dask" },
@@ -890,7 +890,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "click", specifier = ">=8.1.8" },
-    { name = "photomosaic", git = "https://github.com/waseemr02/photomosaic" },
+    { name = "photomosaic", git = "https://github.com/waseemr02/photomosaic?rev=f3c717e3723c288d24a5cdeac199e675791be11b" },
     { name = "pyheif", specifier = ">=0.8.0" },
 ]
 
