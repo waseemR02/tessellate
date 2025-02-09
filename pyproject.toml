@@ -1,0 +1,16 @@
+[project]
+name = "tessellate"
+version = "0.1.0"
+description = "Generate tessellations from a set of images"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "photomosaic",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv.sources]
+photomosaic = { git = "https://github.com/waseemr02/photomosaic" }
