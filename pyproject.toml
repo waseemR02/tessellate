@@ -5,7 +5,7 @@ description = "Generate tessellations from a set of images"
 readme = "README.md"
 requires-python = ">=3.7"
 dependencies = [
-    "photomosaic",
+    "photomosaic @ git+https://github.com/waseemr02/photomosaic",
     "pyheif>=0.8.0",
     "click>=8.1.8",
 ]
@@ -16,6 +16,9 @@ build-backend = "hatchling.build"
 
 [tool.uv.sources]
 photomosaic = { git = "https://github.com/waseemr02/photomosaic", rev = "f3c717e3723c288d24a5cdeac199e675791be11b" }
+
+[tool.hatch.metadata]
+allow-direct-references = true
 
 [project.scripts]
 tessellate = "tessellate.cli:cli"
