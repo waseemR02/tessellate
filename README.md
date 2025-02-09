@@ -20,6 +20,11 @@ or you can use uv for installation
 uv sync
 ```
 
+You can also just use the cli without cloning the repo
+```bash
+pip install git+https://github.com/waseemr02/tessellate
+```
+
 ## Usage
 
 ### Generate Mosaic
