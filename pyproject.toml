@@ -6,6 +6,8 @@ readme = "README.md"
 requires-python = ">=3.7"
 dependencies = [
     "photomosaic",
+    "pyheif>=0.8.0",
+    "click>=8.1.8",
 ]
 
 [build-system]
@@ -14,3 +16,6 @@ build-backend = "hatchling.build"
 
 [tool.uv.sources]
 photomosaic = { git = "https://github.com/waseemr02/photomosaic" }
+
+[project.scripts]
+tessellate = "tessellate.cli:cli"
